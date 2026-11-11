@@ -124,7 +124,7 @@ mapiranje ekran<->webservis. Ne duplirati tu tabelu ovdje.
 
 ### Izvor istine za UI
 
-Za APEX je primarni izvor `@<apex-source>/`. Za React:
+Za APEX je primarni izvor `@02-apex/applications/`. Za React:
 
 1. **Primarni izvor** je stvarna React komponenta (`<react-source>/src/...`)
    i/ili pokrenuta aplikacija (screenshot, live provjera) - ne pretpostavljaj

@@ -39,6 +39,14 @@ Ulazna tacka je `00-ai/10-ai-standards/_index.md`. Primjenjivati samo standarde
 koji odgovaraju stvarno odabranim tehnologijama. Oracle, Flyway, APEX i React
 pravila nisu dokaz da projekat koristi te tehnologije.
 
+## Izvorni folderi
+
+- Oracle/Flyway izvori, ako se koriste: `01-database/`.
+- Oracle APEX aplikacije, ako se koriste: `02-apex/applications/`.
+- Deployment alati i skripte: `99-deployment/`.
+
+Postojanje praznog template foldera nije dokaz da je tehnologija uvedena.
+
 ## Git
 
 - Polazna grana je `main`.

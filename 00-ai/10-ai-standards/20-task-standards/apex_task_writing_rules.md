@@ -9,8 +9,8 @@ last_review: 2026-10-05
 # APEX Task Writing Rules
 
 Primjena za {{PROJECT_NAME}}: APEX dio ovog dokumenta vazi samo ako se koristi APEX.
-App/Page ID-jevi i primjeri su ilustrativni; `<apex-source>` treba zamijeniti
-stvarnom lokacijom izvoza. APEX aplikacija jos nije dodana u repozitorijum.
+App/Page ID-jevi i primjeri su ilustrativni; source exporti se smjestaju u
+`@02-apex/applications/`. Konkretna APEX aplikacija postoji tek kada je njen export dodat u `@02-apex/applications/`.
 
 Ova pravila vaze kada pises zadatak za Oracle APEX frontend programera.
 
@@ -84,7 +84,7 @@ Lose:
 
 ## Sta ne pisati u APEX tasku
 
-- Detalji o `cloude.md` pravilima, Flyway konvencijama i package header formatu, jer to nije relevantno za APEX Builder
+- Detalji o `AGENTS.md` pravilima, Flyway konvencijama i package header formatu, jer to nije relevantno za APEX Builder
 - Repo putanje do PL/SQL fajlova, jer programer radi u Builderu, ne u fajlovima
 - Kompleksni RAG instrukcioni blokovi, jer APEX task treba biti human-readable brief
 - Pretpostavke o tome koji App ID treba koristiti; uvijek ga eksplicitno navedi

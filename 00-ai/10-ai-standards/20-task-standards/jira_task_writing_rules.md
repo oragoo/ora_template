@@ -45,7 +45,7 @@ AI attachment treba da bude:
 - Drzi fokus na poslovnom problemu, scope-u, granicama i done kriterijima
 - `Relevant Systems / Files`, RAG putanje, repo putanje i slicne navigacione reference pripadaju AI attachment-u, ne Jira briefu, osim ako su stvarno potrebne developeru kao poslovni ili implementacioni kontekst
 - U Jira opisu ne guraj pune inventory tabele, detaljne wrapper instrukcije i agent output format osim ako je zadatak bas mali
-- Opsti repo standardi tipa `Postuj cloude.md`, Flyway pravila, package komentari i slicno pripadaju AI attachment-u, ne Jira briefu, osim ako su dio stvarnog poslovnog ili delivery ogranicenja
+- Opsti repo standardi tipa `Postuj AGENTS.md`, Flyway pravila, package komentari i slicno pripadaju AI attachment-u, ne Jira briefu, osim ako su dio stvarnog poslovnog ili delivery ogranicenja
 - Ostatak Jira opisa treba da ostane developer-facing brief
 - Ako attachment postoji, Jira opis ne mora ponavljati pune AI instrukcije
 

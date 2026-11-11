@@ -9,8 +9,8 @@ last_review: 2026-10-05
 # Standardi za pisanje screen reference dokumenata
 
 Primjena za {{PROJECT_NAME}}: APEX dio ovog dokumenta vazi samo ako se koristi APEX.
-App/Page ID-jevi i primjeri su ilustrativni; `<apex-source>` treba zamijeniti
-stvarnom lokacijom izvoza. APEX aplikacija jos nije dodana u repozitorijum.
+App/Page ID-jevi i primjeri su ilustrativni; source exporti se smjestaju u
+`@02-apex/applications/`. Konkretna APEX aplikacija postoji tek kada je njen export dodat u `@02-apex/applications/`.
 
 Ovaj dokument definise kako pisati `screen_reference` dokumente za APEX
 aplikacije u `@00-ai/80-user-documentation/apex/`, ako se koristi APEX.
@@ -34,7 +34,7 @@ za `type: screen_reference` prednost ima ovaj dokument. Frontmatter i opsta
 workspace pravila i dalje se uzimaju iz opsteg standarda.
 
 Ovaj dokument pokriva **APEX** ekrane (naziv fajla i izvor istine su vezani
-za APEX page ID i `@<apex-source>/`). Za React (web/desktop/mobile)
+za APEX page ID i `@02-apex/applications/`). Za React (web/desktop/mobile)
 aplikacije iz `<react-source>/` koristi sadrzaj/sekcije/stil odavde, ali naming i
 izvor istine iz
 `@00-ai/10-ai-standards/40-user-documentation-standards/react_user_docs_writing_standards.md`.
@@ -124,7 +124,7 @@ iz jednog primjera, nego kao apstraktan niz koraka koji vazi za svaki ekran koji
 se dokumentuje.
 
 Prakticne ulazne tacke za taj plan su:
-- aplikacije i APEX exporti se po pravilu traze u `@<apex-source>/`
+- aplikacije i APEX exporti se po pravilu traze u `@02-apex/applications/`
 - tehnicka dokumentacija i RAG dopuna se po pravilu traze u `@00-ai/`
 
 Preporuceni redoslijed:
@@ -145,7 +145,7 @@ Preporuceni redoslijed:
    - Naziv fajla NIJE proizvoljan opis teme niti parafraza naziva stranice -
      mora biti IDENTICAN nazivu izvornog APEX fajla stranice.
    - Format: `page_<ID>.md`, gdje je `<ID>` tacno onoliko cifara koliko ima
-     izvorni fajl `@<apex-source>/f<app>/application/pages/page_<ID>.sql`
+     izvorni fajl `@02-apex/applications/f<app>/application/pages/page_<ID>.sql`
      (APEX ID stranice, zero-padded na 5 cifara - npr. stranica 33 -> izvor
      `page_00033.sql` -> dokument `page_00033.md`; stranica 2 -> `page_00002.sql`
      -> `page_00002.md`; stranica 8000 -> `page_08000.sql` -> `page_08000.md`).
@@ -159,7 +159,7 @@ Preporuceni redoslijed:
    - Primarni izvor treba da bude stvarni ekran, APEX export, provjereni UI
      artifact ili drugi direktni izvor strukture stranice.
    - Kod APEX aplikacija, podrazumijevana lokacija za UI izvor je
-     `@<apex-source>/`.
+     `@02-apex/applications/`.
    - Prije pisanja potvrdi najmanje: naziv ekrana, regione, kolone, polja,
      dugmad, navigaciju i poznate tokove otvaranja povezanih ekrana.
 
@@ -246,7 +246,7 @@ Odmah ispod H1 naslova, prije `## Svrha`, navedi dva reda:
 
 ```markdown
 **Naziv stranice u izvoru:** `<p_name iz create_page bloka>`
-**Izvorni fajl:** `@<apex-source>/f<app>/application/pages/page_<ID>.sql`
+**Izvorni fajl:** `@02-apex/applications/f<app>/application/pages/page_<ID>.sql`
 ```
 
 Pravila:
@@ -425,7 +425,7 @@ Kad dokument opisuje kako korisnik dolazi do ekrana, provjeri redom:
 
 1. Postojeci `screen_reference` za meni, pocetnu ili dashboard stranicu.
 2. APEX navigation liste u
-   `@<apex-source>/f<app>/application/shared_components/navigation/lists/`.
+   `@02-apex/applications/f<app>/application/shared_components/navigation/lists/`.
 3. Ako se meni generise SQL upitom, provjeriti stvarni izvor liste i
    odgovarajuce seed podatke u `@01-database/09-data/`, ako postoje.
 

@@ -9,8 +9,8 @@ last_review: 2026-10-05
 # APEX Task Template Short
 
 Primjena za {{PROJECT_NAME}}: APEX dio ovog dokumenta vazi samo ako se koristi APEX.
-App/Page ID-jevi i primjeri su ilustrativni; `<apex-source>` treba zamijeniti
-stvarnom lokacijom izvoza. APEX aplikacija jos nije dodana u repozitorijum.
+App/Page ID-jevi i primjeri su ilustrativni; source exporti se smjestaju u
+`@02-apex/applications/`. Konkretna APEX aplikacija postoji tek kada je njen export dodat u `@02-apex/applications/`.
 
 Koristi ovaj template za male, jasno ogranicene promjene na postojecoj stranici: bug fix, novi item, izmjena labela, nova validacija, korekcija query-ja.
 

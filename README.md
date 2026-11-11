@@ -18,6 +18,7 @@ Repozitorijum `{{REPOSITORY_NAME}}` je inicijalna osnova projekta.
 - `00-ai/80-user-documentation/` - korisnicka dokumentacija.
 - `00-ai/90-custom-files/` - pomocni kontekst koji nije izvor istine.
 - `01-database/` - prazna Oracle/Flyway struktura po tipovima objekata.
+- `02-apex/` - Oracle APEX aplikacije i njihovi source exporti.
 - `99-deployment/` - genericki alati za pripremu migracija i zavrsnu Oracle provjeru.
 
 Planirana putanja nije dokaz da sadrzaj vec postoji. Dokumente kreirati tek

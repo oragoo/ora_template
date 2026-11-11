@@ -31,6 +31,9 @@ samo stanje potvrdjeno iz izvornog koda, konfiguracije, odluka ili zahtjeva.
 | `@00-ai/40-technical-documentation/` | Tehnicka RAG dokumentacija |
 | `@00-ai/80-user-documentation/` | Korisnicka dokumentacija |
 | `@00-ai/90-custom-files/` | Pomocni kontekst koji nije izvor istine |
+| `@01-database/` | Oracle/Flyway izvori, ako se koriste |
+| `@02-apex/applications/` | Oracle APEX aplikacijski exporti, ako se koriste |
+| `@99-deployment/` | Deployment alati i zavrsne provjere |
 
 ## Pravila odrzavanja
 

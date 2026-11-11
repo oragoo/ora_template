@@ -27,9 +27,10 @@ u `@00-ai/_index.md`.
   placeholder; lokalni zadaci mogu postojati bez Jira tiketa.
 - Planirane lokacije za sadrzaj navedene su u `@00-ai/_index.md`. Folder ili
   fajl koji jos ne postoji ne smije biti predstavljen kao pregledani izvor.
-- `<apex-source>` i `<react-source>` oznacavaju buduce, jos neodredjene
-  lokacije izvornog koda. Zamijeniti ih stvarnim putanjama nakon postavljanja
-  aplikacije; standardi ne kreiraju te foldere.
+- APEX source korijen je `@02-apex/applications/`. Konkretna aplikacija postoji
+  tek kada je njen export dodat u taj folder.
+- `<react-source>` oznacava buducu, jos neodredjenu lokaciju React izvornog
+  koda. Zamijeniti je stvarnom putanjom nakon postavljanja aplikacije.
 - U dokumentima, primjerima i screenshotovima koristiti sinteticne podatke.
 
 ---

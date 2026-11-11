@@ -9,8 +9,8 @@ last_review: 2026-10-05
 # Standardi za pisanje workflow guide dokumenata
 
 Primjena za {{PROJECT_NAME}}: APEX dio ovog dokumenta vazi samo ako se koristi APEX.
-App/Page ID-jevi i primjeri su ilustrativni; `<apex-source>` treba zamijeniti
-stvarnom lokacijom izvoza. APEX aplikacija jos nije dodana u repozitorijum.
+App/Page ID-jevi i primjeri su ilustrativni; source exporti se smjestaju u
+`@02-apex/applications/`. Konkretna APEX aplikacija postoji tek kada je njen export dodat u `@02-apex/applications/`.
 
 Ovaj dokument definise kako pisati `workflow_guide` dokumente za APEX
 aplikacije u `@00-ai/80-user-documentation/apex/`, ako se koristi APEX.

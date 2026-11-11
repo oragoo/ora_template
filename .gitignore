@@ -1,0 +1,25 @@
+# Lokalna konfiguracija i tajne
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE i OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logovi i privremeni fajlovi
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Zavisnosti i build izlazi - dopuniti prema stvarnom stacku
+node_modules/
+dist/
+build/
+coverage/
+

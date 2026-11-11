@@ -17,6 +17,8 @@ Repozitorijum `{{REPOSITORY_NAME}}` je inicijalna osnova projekta.
 - `00-ai/40-technical-documentation/` - tehnicka RAG dokumentacija.
 - `00-ai/80-user-documentation/` - korisnicka dokumentacija.
 - `00-ai/90-custom-files/` - pomocni kontekst koji nije izvor istine.
+- `01-database/` - prazna Oracle/Flyway struktura po tipovima objekata.
+- `99-deployment/` - genericki alati za pripremu migracija i zavrsnu Oracle provjeru.
 
 Planirana putanja nije dokaz da sadrzaj vec postoji. Dokumente kreirati tek
 kada postoje provjereni izvori i stvarna potreba.
